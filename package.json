@@ -1,0 +1,21 @@
+{
+  "name": "own-call",
+  "version": "1.0.0",
+  "description": "implement your own call() method",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "type-check": "tsc --noEmit",
+    "lint": "prettier --write ./src/**/*.{js,ts,json}"
+  },
+  "keywords": [],
+  "author": "Sanjeev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@vitest/ui": "^0.32.2",
+    "prettier": "^2.8.8",
+    "typescript": "^4.9.5",
+    "vitest": "^0.32.2"
+  }
+}
