@@ -4,7 +4,7 @@ declare interface Function {
       f?: (...args: A) => R
       [prop: string]: any
     },
-    A extends any[],
+    A extends unknown[],
     R
   >(
     this: (...args: A) => R,
