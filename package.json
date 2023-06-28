@@ -1,7 +1,7 @@
 {
   "name": "own-call",
   "version": "1.0.0",
-  "description": "implement your own call() method",
+  "description": "own implementation of `Function.prototype.call()`, type-safe",
   "scripts": {
     "test": "vitest",
     "test:ui": "vitest --ui",
