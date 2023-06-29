@@ -2,7 +2,7 @@ declare interface Function {
   ownCall: <
     T extends {
       f?: (...args: A) => R
-      [prop: string]: any
+      [prop: string]: unknown
     },
     A extends unknown[],
     R
